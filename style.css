@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+  background-color:SlateGrey;
+}
+
+h1 {
+  background-color: DarkGrey;
+  font-size: 4rem;
+  letter-spacing: -1px;
+  text-align: center;
+
+  color: Cornsilk;
+  height: 100px;
+  padding-top:25px;
+  margin: 0;
+  top: -5px;
+  right: 25px;
+
+
+  text-shadow: 0 0 8px Black;
+  border: black;
+}
+
+p {
+  position: absolute;
+  margin: 1;
+  color: White;
+}
+p.error{
+
+  color:Red;
+}
+
+a {
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color:DarkSlateGrey;
+
+}
+/*simple link css from w3*/
+a:link,a:visited {
+    color: DarkSlateGrey;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+
+}
+
+
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
