@@ -4,14 +4,26 @@
     <meta charset="utf-8">
     <title>Demo Page</title>
     <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="dropMenu.css">
+		<script src="projectsListDropMenu.js"></script>
   </head>
 
   <body>
-    <h1>Hello Dave!</h1>
-    <p>Banana</p>
-    <canvas></canvas>
 
-    <script src=""></script>
+    <h1>Hello Dave!</h1>
+  <div class="jsDemo">
+    <iframe height="80%" width="100%" name="iframe_a"></iframe>
+		<div class="dropdown">
+			<button onclick="openDropMenu()" class="dropbtn">Demo Projects</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="https://gigglebytes.github.io/MozillaJsTutorial/" target="iframe_a">Bouncing Balls!</a>
+				<a href="https://gigglebytes.github.io/hello-world/" target="iframe_a">HelloWorld!</a>
+			</div>
+		</div>
+
+  </div>
+
+    <p>Banana</p>
     <a href="secondPage.html">Lets go somewhere else!</a>
   </body>
 </html>
