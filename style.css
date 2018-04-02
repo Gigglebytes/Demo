@@ -31,8 +31,16 @@ h1 {
   border: black;
 }
 
-p {
+.jsDemo {
   position: absolute;
+  right: 0;
+  width: 30%;
+  height: 50%;
+  padding: 10px;
+  margin: 0;
+}
+
+p {
   margin: 1;
   color: White;
 }
@@ -42,9 +50,10 @@ p.error{
 }
 
 a {
+	margin: 0;
   border: 1px solid white;
-  border-radius: 4px;
-  background-color:DarkSlateGrey;
+  border-radius: 4px;asd
+  background-color:white;
 
 }
 /*simple link css from w3*/
