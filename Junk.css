@@ -43,3 +43,32 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+.container {
+	display: inline-block;
+	cursor: pointer;
+}
+div.menuIcon {
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin: 6px 0;
+}
+.menuBar {
+	width: 100%;
+	background-color: #000000;
+	overflow: auto;
+}
+.menuBar a {
+float: left;
+ width: 20%;
+ text-align: center;
+ padding: 12px 0;
+ transition: all 0.3s ease;
+ color: #009900;
+ font-size: 36px;
+}
+.menuBar a:hover {
+	background-color: #555;
+}
